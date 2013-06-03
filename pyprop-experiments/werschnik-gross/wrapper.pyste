@@ -1,0 +1,7 @@
+#declare potential evaluator for cartesian-like potentials
+PotentialEvaluator = Template("DynamicPotentialEvaluator", "potential.cpp")
+
+#Compile potential for 1D
+PotentialEvaluator("QuantumDotPotential<1> 1", "QuantumDotPotential_1")
+PotentialEvaluator("DipoleOperator<1> 1", "DipoleOperator_1")
+

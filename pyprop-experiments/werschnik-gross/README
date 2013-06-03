@@ -1,0 +1,9 @@
+This is an example of a 1D double-well model of a single-electron quantum dot.
+
+We are using a Cartesian (FFT) propagator, which seems to be well suited for systems of this type.
+
+
+References
+----------
+J. Werschnik and E.K.U. Gross, J. Opt. B 7, S300 (2005) [doi: 10.1088/1464-4266/7/10/014]
+
